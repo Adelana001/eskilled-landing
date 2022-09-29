@@ -2,17 +2,16 @@
 /* Custom properties   */
 /* ------------------- */
 :root {
-  --clr-slate-200: 232 10% 56%;
-  --clr-slate-400: 234 25% 52%;
-  --clr-slate-600: 233 54% 16%;
-  --clr-pink-200: 341 100% 83%;
-  --clr-pink-400: 341 92% 62%;
-  --clr-pink-600: 322 87% 55%;
-  --clr-orange-400: 13 100% 64%;
-  --clr-blue-400: 237 100% 64%;
-  --clr-blue-600: 233 92% 29%;
-  --clr-neutral-100: 0 0% 100%;
-  --clr-neutral-200: 234 100% 97%;
+  --clr-slate-200: hsl(232 10% 56%);
+  --clr-slate-400: hsl(234 25% 52%);
+  --clr-slate-600: hsl(233 54% 16%);
+  --clr-pink-400: hsl(341 92% 62%);
+  --clr-pink-600: hsl(322 87% 55%);
+  --clr-orange-400: hsl(13 100% 64%);
+  --clr-blue-400: hsl(237 100% 64%);
+  --clr-blue-600: hsl(233 92% 29%);
+  --clr-neutral-100: hsl(0 0% 100%);
+  --clr-neutral-200: hsl(234 100% 97%);
 
   --lg-orange-to-pink: linear-gradient(
     180deg,
