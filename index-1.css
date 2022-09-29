@@ -42,6 +42,17 @@ header > nav {
 p {
   color: var(--darkblue);
 }
+.logo {
+  width: 100%;
+}
+nav > div:last-of-type {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+nav > button {
+  width: fit-content;
+}
 button {
   background-color: var(--very-dark-blue);
   border: none;
@@ -149,5 +160,63 @@ footer {
 footer > button {
   background: var(--bg-orange-pink);
 }
+.mobile-image,
+.tablet-image {
+  display: none;
+}
+
+/* mobile view port */
 @media (max-width: 450px) {
+  .tablet-image,
+  .desktop-image {
+    display: none;
+  }
+  .mobile-image {
+    display: block;
+  }
+  header > nav {
+    padding: 20px;
+  }
+
+  .row {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .heading {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .heading > div {
+    width: 100%;
+  }
+  .image-container {
+    transform: translate(0, 0);
+  }
+  .content {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 40px;
+  }
+  .box:first-of-type {
+    padding: 50px 20px;
+    height: fit-content;
+  }
+  footer {
+    padding: 20px;
+  }
+  .logo {
+    width: 80%;
+  }
+  .logo > img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+/* tablet view port */
+@media (min-width: 450px) and (max-width: 1000px) {
+  .mobile-image,
+  .desktop-image {
+    display: none;
+  }
 }
