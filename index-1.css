@@ -219,4 +219,28 @@ footer > button {
   .desktop-image {
     display: none;
   }
+  .tablet-image {
+    display: block;
+  }
+  .heading {
+    width: 100%;
+  }
+  .heading > div {
+    width: 100%;
+  }
+  header > nav {
+    padding: 20px 50px;
+  }
+  .row {
+    padding-left: 0px;
+    padding: 0px 50px;
+  }
+  .content {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    padding: 0px 50px;
+  }
+  .image-container {
+    transform: translate(180px, 0);
+  }
 }
